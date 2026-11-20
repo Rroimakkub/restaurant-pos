@@ -1,0 +1,18 @@
+{
+  "name": "restaurant-pos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ระบบขายหน้าร้าน เมนู สต็อก รายรับรายจ่าย และรายงาน สำหรับร้านอาหารขนาดเล็ก",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4"
+  }
+}
